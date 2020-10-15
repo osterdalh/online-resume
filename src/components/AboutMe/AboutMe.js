@@ -4,7 +4,7 @@ import AboutMeImage from './AboutMe.jpg';
 
 const AboutMe = () => {
     return (
-        <div className="container AboutMe">
+        <div id="about" className="container AboutMe">
             <div className="row">
                 <div className="col-6 p-0">
                     <img className="aboutMeImage" src={AboutMeImage} alt="about me"></img>

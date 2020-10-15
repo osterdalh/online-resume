@@ -1,0 +1,20 @@
+.Home{
+    padding-top: 60px;
+}
+
+.prallax {
+    background-image: url("hansAboutMe.jpg");
+
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text{
+    height: 800px;
+}
