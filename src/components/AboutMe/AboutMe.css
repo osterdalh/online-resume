@@ -1,0 +1,13 @@
+.AboutMe{
+    padding-top: 60px;
+    background-color: #f0f3f6;
+}
+
+.aboutMeImage{
+    width: 100%;
+}
+
+.textAboutMe{
+    width: 80%;
+    margin: 0 auto;
+}
