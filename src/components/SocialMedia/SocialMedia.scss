@@ -1,0 +1,24 @@
+.SocialMedia {
+    background-color: #343a40;
+    display: inline-block;
+    color: white;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+    padding: 8px 16px;
+}
+
+.socialIconContainer {
+    font-size: 30px;
+    .socIcon {
+        margin: 8px 0;
+        color: rgba(255, 255, 255, 0.5);
+        &:hover{
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
