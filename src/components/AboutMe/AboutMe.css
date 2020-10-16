@@ -1,13 +1,20 @@
 .AboutMe{
-    padding-top: 60px;
-    background-color: #f0f3f6;
-}
-
-.aboutMeImage{
+    padding: 60px 0;
+    background-image: url("codeBackground.jpg");
     width: 100%;
+    color: white;
+    min-height: 200px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.textAboutMe{
-    width: 80%;
+.textContainer{
+    max-width: 800px;
     margin: 0 auto;
 }
+
+
