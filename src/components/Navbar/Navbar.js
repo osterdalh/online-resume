@@ -6,25 +6,25 @@ class Navbar extends React.Component {
 
     render() {
         return (
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-                <div class="container">
-                    <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+                <div className="container">
+                    <a className="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="#home">Home</a>
+                    <div className="collapse navbar-collapse" id="navbarResponsive">
+                        <ul className="navbar-nav ml-auto">
+                        <li className="nav-item">
+                                <a className="nav-link js-scroll-trigger" href="#home">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                            <li className="nav-item">
+                                <a className="nav-link js-scroll-trigger" href="#about">About</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+                            <li className="nav-item">
+                                <a className="nav-link js-scroll-trigger" href="#services">Services</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                            <li className="nav-item">
+                                <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>

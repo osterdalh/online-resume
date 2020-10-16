@@ -6,13 +6,21 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "bootstrap": "file:node_modules/bootstrap",
+    "bootstrap": "4.5.0",
+    "jquery.easing": "^1.4.1",
     "node-sass": "^4.14.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-scripts": "3.4.3",
     "schema-utils": "^3.0.0",
-    "startbootstrap-scrolling-nav": "^4.2.2"
+    "startbootstrap-scrolling-nav": "^4.2.2",
+    "jquery": "3.5.1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.7",
+    "del": "5.1.0",
+    "gulp": "4.0.2",
+    "merge-stream": "2.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
