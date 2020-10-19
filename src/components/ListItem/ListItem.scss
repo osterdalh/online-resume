@@ -1,7 +1,20 @@
-.ListItem{
-
-    .years{
+.ListItem {
+    margin-bottom: 30px;
+    .years {
         font-weight: 700;
         font-style: italic;
     }
+    transition: 0.3s  ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(128, 128, 128, 0.178);
+        border-radius: 10px;
+
+    }
+
+}
+.activeItem{
+    background-color: rgba(128, 128, 128, 0.178);
+    border-radius: 10px;
 }
