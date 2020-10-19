@@ -21,7 +21,7 @@ class Navbar extends React.Component {
                                 <a className="nav-link js-scroll-trigger" href="#about">About</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link js-scroll-trigger" href="#services">Services</a>
+                                <a className="nav-link js-scroll-trigger" href="#experience">Experience</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>

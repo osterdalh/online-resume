@@ -6,7 +6,10 @@
     .ListItem{
         padding-top: 30px;
     }
-    .colWidth{
-        width: 60%;
+    .content-fit{
+        width: fit-content
+    }
+    .horCenter{
+        margin: 0 auto;;
     }
 }
