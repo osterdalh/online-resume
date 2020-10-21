@@ -1,0 +1,27 @@
+{
+    "ntnu": {
+        "title": "Working at Cognizant",
+        "text": "congiznat text",
+        "alt": "test"
+    },
+    "lisboa": {
+        "title": "Edications",
+        "text": "NTNUT",
+        "alt": "alt tezt"
+    },
+    "cognizant": {
+        "title": "Working at Cognizant",
+        "text": "NTNUT",
+        "alt": "alt tezt"
+    },
+    "masters": {
+        "title": "Edications",
+        "text": "NTNUT",
+        "alt": "alt tezt"
+    },
+    "smartmirror": {
+        "title": "Edications",
+        "text": "NTNUT",
+        "alt": "alt tezt"
+    }
+}

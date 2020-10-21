@@ -3,6 +3,7 @@ import './EducationAndExperience.scss'
 
 import Header from '../Header/Header'
 import ListItem from '../ListItem/ListItem'
+import DetailedInfo from '../DetailedInfo/DetailedInfo'
 
 class EducationAndExperience extends React.Component {
 
@@ -13,9 +14,11 @@ class EducationAndExperience extends React.Component {
         }
     }
 
-    onSelectedItem() {
-        this.setState({ selected: true })
-        console.log("HEI")
+    onSelectedItem(item) {
+        if (this.state.selectedItem === item){
+            this.setState({selectedItem: null})
+        } else if (!(this.state.selectedItem === item))
+        this.setState({ selectedItem: item })
     }
 
 
@@ -30,7 +33,7 @@ class EducationAndExperience extends React.Component {
                                     <h5>WHAT IVE LEARNED </h5>
 
                                 </Header>
-                                <div onClick={() => this.setState({ selectedItem: 'ntnu' })}>
+                                <div onClick={() => this.onSelectedItem('ntnu')}>
                                     <ListItem className="ListItem "
                                         years="2013-2018"
                                         title="Norwegian University of Science and Technology - Trondheim"
@@ -39,7 +42,7 @@ class EducationAndExperience extends React.Component {
                                         selectedItem={this.state.selectedItem}>
                                     </ListItem>
                                 </div>
-                                <div onClick={() => this.setState({ selectedItem: 'lisboa' })}>
+                                <div onClick={() => this.onSelectedItem('lisboa')}>
                                     <ListItem className="ListItem"
                                         years="2017"
                                         title="Instituto Superior Técnico - Lisbon"
@@ -60,7 +63,7 @@ class EducationAndExperience extends React.Component {
                                     <h5>WHAT IVE DONE</h5>
 
                                 </Header>
-                                <div onClick={() => this.setState({ selectedItem: 'cognizant' })}>
+                                <div onClick={() => this.onSelectedItem('cognizant')}>
                                     <ListItem className="ListItem"
                                         years="2019 - Present"
                                         title="Cognizant - Oslo"
@@ -80,7 +83,7 @@ class EducationAndExperience extends React.Component {
                                     <h5>LEARNING BY DOING</h5>
 
                                 </Header>
-                                <div onClick={() => this.setState({ selectedItem: 'masters' })}>
+                                <div onClick={() => this.onSelectedItem('masters')}>
                                     <ListItem className="ListItem"
                                         title="Master Thesis"
                                         subtitle="Development of an Automated Bin Picking System for Cluttered Environments"
@@ -89,7 +92,7 @@ class EducationAndExperience extends React.Component {
 
                                     </ListItem>
                                 </div>
-                                <div onClick={() => this.setState({ selectedItem: 'smartmirror' })} >
+                                <div onClick={() => this.onSelectedItem('smartmirror')} >
                                     <ListItem className="ListItem"
                                         title="Smart Mirror"
                                         subtitle="Learning React by Developing a Smart Mirror"
@@ -105,7 +108,12 @@ class EducationAndExperience extends React.Component {
 
                     </div>
                 </div>
+                <div>
+                    <DetailedInfo id={this.state.selectedItem}>
 
+                    </DetailedInfo>
+
+                </div>
 
             </div>
 

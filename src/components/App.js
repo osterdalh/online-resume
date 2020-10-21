@@ -7,6 +7,7 @@ import AboutMe from './AboutMe/AboutMe'
 import EducationAndExperience from './EducationAndExperience/EducationAndExperience'
 import Home from './Home/Home'
 import SocialMedia from './SocialMedia/SocialMedia'
+import ContactMe from './ContactMe/ContactMe'
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
 
       <AboutMe></AboutMe>
       <EducationAndExperience></EducationAndExperience>
+
+      <ContactMe></ContactMe>
     </div>
   );
 }
