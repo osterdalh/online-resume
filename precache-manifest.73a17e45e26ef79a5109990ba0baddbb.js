@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "538414044849df13f107dfe41c35dc7d",
+    "revision": "c75a17c52e770d827e2926a1f28a7171",
     "url": "/online-resume/index.html"
   },
   {
-    "revision": "9bdd12af86a002e82ed0",
-    "url": "/online-resume/static/css/main.677263ba.chunk.css"
+    "revision": "d5b730da3e2f16a918be",
+    "url": "/online-resume/static/css/main.e5c92ef3.chunk.css"
   },
   {
     "revision": "2d1d8413c0b7090f6a68",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/online-resume/static/js/2.a329741c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9bdd12af86a002e82ed0",
-    "url": "/online-resume/static/js/main.9ac681bc.chunk.js"
+    "revision": "d5b730da3e2f16a918be",
+    "url": "/online-resume/static/js/main.5522070f.chunk.js"
   },
   {
     "revision": "9b137ea4bc4e7e63b1a4",
@@ -42,5 +42,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3a6592468ca8efd474021c017e021778",
     "url": "/online-resume/static/media/masters.3a659246.jpg"
+  },
+  {
+    "revision": "2c0d1833ffcbffb3966d5f0bb2a2ba10",
+    "url": "/online-resume/static/media/sailing.2c0d1833.jpg"
   }
 ]);
