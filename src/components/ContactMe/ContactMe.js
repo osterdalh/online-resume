@@ -101,8 +101,8 @@ class ContactMe extends React.Component {
 
                                 </p>
                                 <div className="text-center p-3">
-                                    <button>Download CV</button>
-                                    <Link to="./CV.pdf" target="_blank" download>Download</Link>
+
+                                    <Link to="./CV.pdf" target="_blank" download><button>Download CV</button></Link>
 
 
                                 </div>
