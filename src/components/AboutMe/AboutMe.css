@@ -1,10 +1,9 @@
-.AboutMe{
+.AboutMe {
     padding: 60px 0;
-    background-image: url("codeBackground.jpg");
+    background-image: url("sailing.jpg");
     width: 100%;
-    color: white;
-    min-height: 200px; 
-  
+    min-height: 200px;
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -12,9 +11,7 @@
     background-size: cover;
 }
 
-.textContainer{
+.textContainer {
     max-width: 800px;
     margin: 0 auto;
 }
-
-

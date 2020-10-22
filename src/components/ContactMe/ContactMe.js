@@ -92,8 +92,18 @@ class ContactMe extends React.Component {
                         <div className="row">
                             <div className="col-6">
                                 <p>
-                                    Im always looking to expand my network and to get in contact with great people. Please feel free to reach out!
+                                    Im always looking to expand my network and to get in contact with great people.
                                 </p>
+                                <p>
+                                    Please feel free to reach out, and to download my CV!
+
+                                </p>
+                                <div className="text-center p-3">
+                                    <button>Download CV</button>
+
+                                </div>
+
+
                             </div>
                             <div className="col-6">
                                 <div className="formConteiner">

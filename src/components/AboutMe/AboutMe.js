@@ -3,16 +3,24 @@ import './AboutMe.css'
 
 import Header from '../Header/Header'
 
+const getAge = (dob) => {
+    var diff_ms = Date.now() - dob.getTime();
+    var age_dt = new Date(diff_ms); 
+  
+    return Math.abs(age_dt.getUTCFullYear() - 1970);
+}
+
 const AboutMe = () => {
+
     return (
         <div id="about" className="AboutMe">
             <div className="textContainer text-center">
-                <Header heading="About Me" theme="light"></Header>
+                <Header heading="About Me" ></Header>
                 <p className="aboutText">
-                    Curious graduate with a passion for frontend development and design.
+                    Hi! My name is Hans Braltand Østerdal, and i'm {getAge(new Date(1993, 1, 25))} years old. 
 
-                    Educational background from NTNU in Trondheim, with master's degree in mechanical engineering. Specialized in development of automated warehouse solutions, using computer vision, robotic manipulators, and machine learning
-            </p>
+
+                </p>
             </div>
 
 

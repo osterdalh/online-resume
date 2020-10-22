@@ -8,6 +8,7 @@ import EducationAndExperience from './EducationAndExperience/EducationAndExperie
 import Home from './Home/Home'
 import SocialMedia from './SocialMedia/SocialMedia'
 import ContactMe from './ContactMe/ContactMe'
+import Footer from './Footer/Footer'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <EducationAndExperience></EducationAndExperience>
 
       <ContactMe></ContactMe>
+      <Footer></Footer>
     </div>
   );
 }

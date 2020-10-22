@@ -1,4 +1,17 @@
 .EducationAndExperience{
+
+    padding: 60px 0;
+    background-image: url("codeBackground.jpg");
+    width: 100%;
+    color: white;
+    min-height: 200px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     padding: 60px 0;
     .fit-content{
         width: fit-content;
