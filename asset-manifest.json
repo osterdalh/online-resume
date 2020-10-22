@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/online-resume/static/css/main.677263ba.chunk.css",
+    "main.js": "/online-resume/static/js/main.9ac681bc.chunk.js",
+    "main.js.map": "/online-resume/static/js/main.9ac681bc.chunk.js.map",
+    "runtime-main.js": "/online-resume/static/js/runtime-main.c5263ff3.js",
+    "runtime-main.js.map": "/online-resume/static/js/runtime-main.c5263ff3.js.map",
+    "static/js/2.a329741c.chunk.js": "/online-resume/static/js/2.a329741c.chunk.js",
+    "static/js/2.a329741c.chunk.js.map": "/online-resume/static/js/2.a329741c.chunk.js.map",
+    "index.html": "/online-resume/index.html",
+    "precache-manifest.fb90806f58c0b59a3ad6221a9d779b2e.js": "/online-resume/precache-manifest.fb90806f58c0b59a3ad6221a9d779b2e.js",
+    "service-worker.js": "/online-resume/service-worker.js",
+    "static/css/main.677263ba.chunk.css.map": "/online-resume/static/css/main.677263ba.chunk.css.map",
+    "static/js/2.a329741c.chunk.js.LICENSE.txt": "/online-resume/static/js/2.a329741c.chunk.js.LICENSE.txt",
+    "static/media/ContactMe.scss": "/online-resume/static/media/bg.94f16a16.jpg",
+    "static/media/AboutMe.css": "/online-resume/static/media/codeBackground.9dec5baa.jpg",
+    "static/media/cognizant.jpg": "/online-resume/static/media/cognizant.8f956ac5.jpg",
+    "static/media/Home.scss": "/online-resume/static/media/hansAboutMe.b76bea09.jpg",
+    "static/media/masters.jpg": "/online-resume/static/media/masters.3a659246.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5263ff3.js",
+    "static/js/2.a329741c.chunk.js",
+    "static/css/main.677263ba.chunk.css",
+    "static/js/main.9ac681bc.chunk.js"
+  ]
+}
