@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+
 import './ContactMe.scss'
 import Header from '../Header/Header'
 import { init } from 'emailjs-com';
@@ -100,6 +102,8 @@ class ContactMe extends React.Component {
                                 </p>
                                 <div className="text-center p-3">
                                     <button>Download CV</button>
+                                    <Link to="./CV.pdf" target="_blank" download>Download</Link>
+
 
                                 </div>
 

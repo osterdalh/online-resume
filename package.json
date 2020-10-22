@@ -2,6 +2,7 @@
   "name": "online-resume",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://osterdalh.github.io/online-resume/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -14,6 +15,7 @@
     "node-sass": "^4.14.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "schema-utils": "^3.0.0",
     "startbootstrap-scrolling-nav": "^4.2.2"

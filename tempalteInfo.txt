@@ -6,3 +6,6 @@ https://no.wix.com/website-template/view/html/1732?siteId=648ae4f3-0bc8-46c6-bec
 https://www.wix.com/website/templates/html/all/25
 
 https://unsplash.com/
+
+
+  "homepage": "https://osterdalh.github.io/online-resume/",

@@ -1,5 +1,5 @@
 import React from 'react';
-// import logo from './logo.svg';
+import { BrowserRouter as Router } from "react-router-dom";
 import './App.css';
 
 import Navbar from './Navbar/Navbar'
@@ -12,17 +12,20 @@ import Footer from './Footer/Footer'
 
 function App() {
   return (
-    <div className="App">
-      <Navbar className="Navbar"></Navbar>
-      <Home></Home>
-      <SocialMedia></SocialMedia>
+    <Router>
+      <div className="App">
+        <Navbar className="Navbar"></Navbar>
+        <Home></Home>
+        <SocialMedia></SocialMedia>
 
-      <AboutMe></AboutMe>
-      <EducationAndExperience></EducationAndExperience>
+        <AboutMe></AboutMe>
+        <EducationAndExperience></EducationAndExperience>
 
-      <ContactMe></ContactMe>
-      <Footer></Footer>
-    </div>
+        <ContactMe></ContactMe>
+        <Footer></Footer>
+      </div>
+    </Router>
+
   );
 }
 
