@@ -9,6 +9,7 @@ import Home from './Home/Home'
 import SocialMedia from './SocialMedia/SocialMedia'
 import ContactMe from './ContactMe/ContactMe'
 import Footer from './Footer/Footer'
+import SkillStack from './SkillStack/SkillStack'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <SocialMedia></SocialMedia>
 
         <AboutMe></AboutMe>
+        <SkillStack></SkillStack>
         <EducationAndExperience></EducationAndExperience>
 
         <ContactMe></ContactMe>

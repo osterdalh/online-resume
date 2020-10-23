@@ -11,7 +11,20 @@
     background-size: cover;
 }
 
-.textContainer {
-    max-width: 800px;
+.aboutMeBox {
     margin: 0 auto;
+    background-color: #f1f1f1;
+
+ 
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    height: 700px;
+}
+
+.textContainer{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }

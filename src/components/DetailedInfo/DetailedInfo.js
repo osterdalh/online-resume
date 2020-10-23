@@ -5,6 +5,7 @@ import Header from '../Header/Header'
 
 import masters from './asstes/masters.jpg'
 import cognizant from './asstes/cognizant.jpg'
+import ntnu from './asstes/ntnu.jpg'
 
 
 class DetailedInfo extends React.Component {
@@ -16,7 +17,7 @@ class DetailedInfo extends React.Component {
     getImage = (id) => {
         switch (id) {
             case 'ntnu':
-                return masters
+                return ntnu
             case 'lisboa':
                 return masters
             case 'cognizant':
