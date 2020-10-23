@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/online-resume/static/css/main.e5c92ef3.chunk.css",
-    "main.js": "/online-resume/static/js/main.d2f40af4.chunk.js",
-    "main.js.map": "/online-resume/static/js/main.d2f40af4.chunk.js.map",
+    "main.css": "/online-resume/static/css/main.e1923b11.chunk.css",
+    "main.js": "/online-resume/static/js/main.acb42f99.chunk.js",
+    "main.js.map": "/online-resume/static/js/main.acb42f99.chunk.js.map",
     "runtime-main.js": "/online-resume/static/js/runtime-main.c5263ff3.js",
     "runtime-main.js.map": "/online-resume/static/js/runtime-main.c5263ff3.js.map",
-    "static/js/2.043702e0.chunk.js": "/online-resume/static/js/2.043702e0.chunk.js",
-    "static/js/2.043702e0.chunk.js.map": "/online-resume/static/js/2.043702e0.chunk.js.map",
+    "static/js/2.d506f6bd.chunk.js": "/online-resume/static/js/2.d506f6bd.chunk.js",
+    "static/js/2.d506f6bd.chunk.js.map": "/online-resume/static/js/2.d506f6bd.chunk.js.map",
     "index.html": "/online-resume/index.html",
-    "precache-manifest.f078d85b4ddb715c7ebede7fb5c53aa5.js": "/online-resume/precache-manifest.f078d85b4ddb715c7ebede7fb5c53aa5.js",
+    "precache-manifest.112babce2c119197f9f51a3964ddcfcf.js": "/online-resume/precache-manifest.112babce2c119197f9f51a3964ddcfcf.js",
     "service-worker.js": "/online-resume/service-worker.js",
-    "static/css/main.e5c92ef3.chunk.css.map": "/online-resume/static/css/main.e5c92ef3.chunk.css.map",
-    "static/js/2.043702e0.chunk.js.LICENSE.txt": "/online-resume/static/js/2.043702e0.chunk.js.LICENSE.txt",
+    "static/css/main.e1923b11.chunk.css.map": "/online-resume/static/css/main.e1923b11.chunk.css.map",
+    "static/js/2.d506f6bd.chunk.js.LICENSE.txt": "/online-resume/static/js/2.d506f6bd.chunk.js.LICENSE.txt",
     "static/media/ContactMe.scss": "/online-resume/static/media/bg.94f16a16.jpg",
-    "static/media/EducationAndExperience.scss": "/online-resume/static/media/codeBackground.9dec5baa.jpg",
+    "static/media/SkillStack.scss": "/online-resume/static/media/codeBackground.9dec5baa.jpg",
     "static/media/cognizant.jpg": "/online-resume/static/media/cognizant.8f956ac5.jpg",
     "static/media/Home.scss": "/online-resume/static/media/hansAboutMe.b76bea09.jpg",
     "static/media/masters.jpg": "/online-resume/static/media/masters.3a659246.jpg",
+    "static/media/meg.jpg": "/online-resume/static/media/meg.028a4e52.jpg",
+    "static/media/ntnu.jpg": "/online-resume/static/media/ntnu.61b251a9.jpg",
     "static/media/AboutMe.css": "/online-resume/static/media/sailing.2c0d1833.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c5263ff3.js",
-    "static/js/2.043702e0.chunk.js",
-    "static/css/main.e5c92ef3.chunk.css",
-    "static/js/main.d2f40af4.chunk.js"
+    "static/js/2.d506f6bd.chunk.js",
+    "static/css/main.e1923b11.chunk.css",
+    "static/js/main.acb42f99.chunk.js"
   ]
 }
