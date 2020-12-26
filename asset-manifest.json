@@ -1,30 +1,35 @@
 {
   "files": {
-    "main.css": "/online-resume/static/css/main.e1923b11.chunk.css",
-    "main.js": "/online-resume/static/js/main.acb42f99.chunk.js",
-    "main.js.map": "/online-resume/static/js/main.acb42f99.chunk.js.map",
+    "main.css": "/online-resume/static/css/main.8d4e4263.chunk.css",
+    "main.js": "/online-resume/static/js/main.818dd6ea.chunk.js",
+    "main.js.map": "/online-resume/static/js/main.818dd6ea.chunk.js.map",
     "runtime-main.js": "/online-resume/static/js/runtime-main.c5263ff3.js",
     "runtime-main.js.map": "/online-resume/static/js/runtime-main.c5263ff3.js.map",
-    "static/js/2.d506f6bd.chunk.js": "/online-resume/static/js/2.d506f6bd.chunk.js",
-    "static/js/2.d506f6bd.chunk.js.map": "/online-resume/static/js/2.d506f6bd.chunk.js.map",
+    "static/js/2.5c6e327e.chunk.js": "/online-resume/static/js/2.5c6e327e.chunk.js",
+    "static/js/2.5c6e327e.chunk.js.map": "/online-resume/static/js/2.5c6e327e.chunk.js.map",
     "index.html": "/online-resume/index.html",
-    "precache-manifest.112babce2c119197f9f51a3964ddcfcf.js": "/online-resume/precache-manifest.112babce2c119197f9f51a3964ddcfcf.js",
+    "precache-manifest.27d2d980a3c390c06dc4aa12f999ddac.js": "/online-resume/precache-manifest.27d2d980a3c390c06dc4aa12f999ddac.js",
     "service-worker.js": "/online-resume/service-worker.js",
-    "static/css/main.e1923b11.chunk.css.map": "/online-resume/static/css/main.e1923b11.chunk.css.map",
-    "static/js/2.d506f6bd.chunk.js.LICENSE.txt": "/online-resume/static/js/2.d506f6bd.chunk.js.LICENSE.txt",
+    "static/css/main.8d4e4263.chunk.css.map": "/online-resume/static/css/main.8d4e4263.chunk.css.map",
+    "static/js/2.5c6e327e.chunk.js.LICENSE.txt": "/online-resume/static/js/2.5c6e327e.chunk.js.LICENSE.txt",
     "static/media/ContactMe.scss": "/online-resume/static/media/bg.94f16a16.jpg",
+    "static/media/binpicking.png": "/online-resume/static/media/binpicking.e0fb6c8a.png",
     "static/media/SkillStack.scss": "/online-resume/static/media/codeBackground.9dec5baa.jpg",
     "static/media/cognizant.jpg": "/online-resume/static/media/cognizant.8f956ac5.jpg",
+    "static/media/frontendDev.png": "/online-resume/static/media/frontendDev.ee888651.png",
     "static/media/Home.scss": "/online-resume/static/media/hansAboutMe.b76bea09.jpg",
-    "static/media/masters.jpg": "/online-resume/static/media/masters.3a659246.jpg",
+    "static/media/ist.jpg": "/online-resume/static/media/ist.299c7961.jpg",
+    "static/media/jeopardy.PNG": "/online-resume/static/media/jeopardy.20595dd3.PNG",
     "static/media/meg.jpg": "/online-resume/static/media/meg.028a4e52.jpg",
-    "static/media/ntnu.jpg": "/online-resume/static/media/ntnu.61b251a9.jpg",
-    "static/media/AboutMe.css": "/online-resume/static/media/sailing.2c0d1833.jpg"
+    "static/media/ntnu.jpg": "/online-resume/static/media/ntnu.78839a63.jpg",
+    "static/media/AboutMe.css": "/online-resume/static/media/sailing.2c0d1833.jpg",
+    "static/media/smartmirror.jpg": "/online-resume/static/media/smartmirror.815f79a2.jpg",
+    "static/media/uka.jpg": "/online-resume/static/media/uka.00d2eb8c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c5263ff3.js",
-    "static/js/2.d506f6bd.chunk.js",
-    "static/css/main.e1923b11.chunk.css",
-    "static/js/main.acb42f99.chunk.js"
+    "static/js/2.5c6e327e.chunk.js",
+    "static/css/main.8d4e4263.chunk.css",
+    "static/js/main.818dd6ea.chunk.js"
   ]
 }
