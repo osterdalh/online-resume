@@ -1,27 +1,45 @@
 {
     "ntnu": {
-        "title": "Working at Cognizant",
-        "text": "congiznat text",
-        "alt": "test"
+        "title": "Mechanical Engineer",
+        "text": "I graduated as a mechanical engineer from the Norwegian University of Science and Technology (NTNU) in 2018. This education gave me competence in fields related to production, product design, and automation. NTNU is concidered the best technical university in Norway, and has given me a good fundament to succeed in my career.",
+        "alt": "Education"
     },
     "lisboa": {
-        "title": "Edications",
-        "text": "NTNUT",
-        "alt": "alt tezt"
+        "title": "Exchange Year",
+        "text": "I moved to Lisbon to complete my fourth year of my study program at the engineering and technical university of Instituto Superior Técnico. This opportunity gave me new impulses, and an introduction to several technical fields that I would base my master’s thesis on, such as computer vision and programming. Lisbon was a great place to live for a year, with cheap beer and beautiful beaches. I hope to return one day! ",
+        "alt": "Year in Lisbon"
     },
-    "cognizant": {
-        "title": "Working at Cognizant",
-        "text": "NTNUT",
-        "alt": "alt tezt"
+    "volunteer": {
+        "title": "Volunteer Work",
+        "text": "I have had several volunteering jobs while studying for my master’s degree. During UKA-15, I was part of the ‘painting group’, responsible for selling and painting advertisement on big walls to sponsors of the event. I have also worked for the student group, where I was responsible for organizing events between students and the business community. ",
+        "alt": "Volunteer work"
+    },
+    "cognizantFrontend": {
+        "title": "Frontend Developer at Cognizant",
+        "text": "During my time at Cognizant, I have been involved in several projects. My preferred framework is in ReactJS, but I have also developed in AngularJS. Other skills and technologies that I have worked with are Redux for state management, Formik for form validation and handling, TypeScript for typing, and SASS and Bootstrap for styling.",
+        "alt": "Wokring as a frontender"
+    },
+    "cognizantBusiness": {
+        "title": "Business Analyst at Cognizant",
+        "text": "Tech is important, but knowing your customer and end-user is just as important. Through my work at Cognizant, I have also worked closely with clients as a business analyst, and identified and addressed customer values and needs.",
+        "alt": "Business analyst"
     },
     "masters": {
-        "title": "Edications",
-        "text": "NTNUT",
-        "alt": "alt tezt"
+        "title": "Master Thesis",
+        "text": "My master thesis revolved around the development of an automated bin picking system for warehouses, where I used robotics, 3D and 2D cameras, and machine learning to identify, locate, and pick items. You can see a demo of the project by clicking the beneath link.",
+        "alt": "Master thesis",
+        "link": "https://www.youtube.com/watch?v=bWHmY9RrQKc&t=88s&ab_channel=Hans%C3%98sterdal"
+
     },
     "smartmirror": {
-        "title": "Edications",
-        "text": "NTNUT",
-        "alt": "alt tezt"
+        "title": "Smart Mirror",
+        "text": "When I first decided to get into frontend, I wanted to have a project that would motivate me to keep learning, and a project where I could implement some of the stuff that I was learning. Therefore, I decided to create a smart mirror application that could display custom information that would be relevant for me. Some of the features I have implemented at this point in time are, displaying in real time the public transport options in my neighborhood, google account integration to display calendar events, weather and surf forecast, and Sonos integration to show what music as played on the music system. When I one day move out of my boat, I will make the actual frame to go along with the project!",
+        "alt": "Smartmirror project"
+    },
+    "jeopardy": {
+        "title": "Jeopardy Game Application",
+        "text": "My friends and me like to play different games when we hang out, and one of the games that we often come back to, is the classic game of Jeopardy. We were using an ugly and functionless PowerPoint to play this game, so I decided to create a more visual interesting and interactive application that we could use instead. Gather your homies and check it out!",
+        "alt": "Jeopardy game app",
+        "link": "https://osterdalh.github.io/jeopardy/"
     }
 }

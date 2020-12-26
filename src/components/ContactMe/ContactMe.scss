@@ -66,4 +66,10 @@
         opacity: 0;
         transition: visibility 0s, opacity 0.5s linear;
     }
+    .submitTextFail{
+        color: red;
+        text-decoration: underline;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s linear;
+    }
 }

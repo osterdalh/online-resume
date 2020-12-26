@@ -9,7 +9,7 @@ import emailjs from 'emailjs-com';
 class ContactMe extends React.Component {
     constructor(props) {
         super(props)
-        init("user_QS9O3Kk31QdO9myDCfK84");
+        init("user_xJZzlnSHk9WNxuOrRitRL");
 
         this.state = {
             name: '',
@@ -60,6 +60,9 @@ class ContactMe extends React.Component {
         element.style.opacity = "1"
     }
 
+        
+
+
     sendForm = (name, email, message) => {
 
         var templateParams = {
@@ -68,7 +71,7 @@ class ContactMe extends React.Component {
             message
         };
 
-        emailjs.send('service_0dk9rvh', 'template_ao4gwzr', templateParams)
+        emailjs.send('service_zbrq2ig', 'template_yp9ifvp', templateParams)
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
                 this.setState({
@@ -79,6 +82,9 @@ class ContactMe extends React.Component {
                 this.showSucc()
             }, function (error) {
                 console.log('FAILED...', error);
+                var element = document.getElementById("failText")
+                element.style.visibility = "visable"
+                element.style.opacity = "1"
             });
     }
 
@@ -123,6 +129,7 @@ class ContactMe extends React.Component {
                                     <button onClick={this.validateForm}>Send</button>
 
                                     <h5 id="succText" className="text-center pt-3 submitText">Thanks for submitting!</h5>
+                                    <h5 id="failText" className="text-center pt-3 submitTextFail">Not able to submit form. Please contact me at osterdalh@gmail.com.</h5>
                                 </div>
                             </div>
                         </div>

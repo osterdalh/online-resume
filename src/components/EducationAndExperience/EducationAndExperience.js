@@ -36,7 +36,6 @@ class EducationAndExperience extends React.Component {
                                 <div className="content-fit" >
                                     <Header className="HeaderComp" heading="Education" theme="dark">
                                         <h5>WHAT IVE LEARNED </h5>
-
                                     </Header>
                                     <div onClick={() => this.onSelectedItem('ntnu')}>
                                         <ListItem className="ListItem "
@@ -49,10 +48,19 @@ class EducationAndExperience extends React.Component {
                                     </div>
                                     <div onClick={() => this.onSelectedItem('lisboa')}>
                                         <ListItem className="ListItem"
-                                            years="2017"
+                                            years="2016-2017"
                                             title="Instituto Superior Técnico - Lisbon"
                                             subtitle="Exchange Year"
                                             id="lisboa"
+                                            selectedItem={this.state.selectedItem}>
+                                        </ListItem>
+                                    </div>
+                                    <div onClick={() => this.onSelectedItem('volunteer')}>
+                                        <ListItem className="ListItem"
+                                            years="2015"
+                                            title="Volunteer Work - Trondheim"
+                                            subtitle="UKA-15 and Student Association"
+                                            id="volunteer"
                                             selectedItem={this.state.selectedItem}>
                                         </ListItem>
                                     </div>
@@ -68,14 +76,25 @@ class EducationAndExperience extends React.Component {
                                         <h5>WHAT IVE DONE</h5>
 
                                     </Header>
-                                    <div onClick={() => this.onSelectedItem('cognizant')}>
+                                    <div onClick={() => this.onSelectedItem('cognizantBusiness')}>
+                                        <ListItem className="ListItem"
+                                            years="2019"
+                                            title="Cognizant - Oslo"
+                                            subtitle="Business Analyst"
+                                            id="cognizantBusiness"
+                                            selectedItem={this.state.selectedItem}>
+                                        </ListItem>
+
+                                    </div>
+                                    <div onClick={() => this.onSelectedItem('cognizantFrontend')}>
                                         <ListItem className="ListItem"
                                             years="2019 - Present"
                                             title="Cognizant - Oslo"
-                                            subtitle="Frontend Developer & Business Analyst"
-                                            id="cognizant"
+                                            subtitle="Frontend Developer"
+                                            id="cognizantFrontend"
                                             selectedItem={this.state.selectedItem}>
                                         </ListItem>
+
                                     </div>
 
                                 </div>
@@ -90,6 +109,7 @@ class EducationAndExperience extends React.Component {
                                     </Header>
                                     <div onClick={() => this.onSelectedItem('masters')}>
                                         <ListItem className="ListItem"
+                                            years="2018"
                                             title="Master Thesis"
                                             subtitle="Development of an Automated Bin Picking System for Cluttered Environments"
                                             id="masters"
@@ -99,9 +119,20 @@ class EducationAndExperience extends React.Component {
                                     </div>
                                     <div onClick={() => this.onSelectedItem('smartmirror')} >
                                         <ListItem className="ListItem"
+                                            years="2019"
                                             title="Smart Mirror"
                                             subtitle="Learning React by Developing a Smart Mirror"
                                             id="smartmirror"
+                                            selectedItem={this.state.selectedItem}>
+
+                                        </ListItem>
+                                    </div>
+                                    <div onClick={() => this.onSelectedItem('jeopardy')} >
+                                        <ListItem className="ListItem"
+                                            years="2020"
+                                            title="Jeopardy Application"
+                                            subtitle="Developing a Game Application for me and my Friends"
+                                            id="jeopardy"
                                             selectedItem={this.state.selectedItem}>
 
                                         </ListItem>
